@@ -1,0 +1,106 @@
+{
+  "version": "2026-02-18-v1.1",
+  "locale": "de-DE",
+  "markers": [
+    { "id": "wbc", "display_name": "Leukozyten", "category": "cbc", "synonyms": ["Leukozyten", "WBC", "Leucocytes", "Leukos"], "preferred_unit": "G/L", "unit_aliases": ["10^9/L", "x10^9/L"], "conversions": [{ "from": "10^9/L", "to": "G/L", "factor": 1.0 }, { "from": "x10^9/L", "to": "G/L", "factor": 1.0 }] },
+    { "id": "rbc", "display_name": "Erythrozyten", "category": "cbc", "synonyms": ["Erythrozyten", "RBC", "Ery", "Red Blood Cells"], "preferred_unit": "T/L", "unit_aliases": ["10^12/L", "x10^12/L"], "conversions": [{ "from": "10^12/L", "to": "T/L", "factor": 1.0 }, { "from": "x10^12/L", "to": "T/L", "factor": 1.0 }] },
+    { "id": "hb", "display_name": "Hämoglobin", "category": "cbc", "synonyms": ["Hämoglobin", "Hb", "Hemoglobin"], "preferred_unit": "g/dL", "unit_aliases": ["g/L"], "conversions": [{ "from": "g/L", "to": "g/dL", "factor": 0.1 }] },
+    { "id": "hct", "display_name": "Hämatokrit", "category": "cbc", "synonyms": ["Hämatokrit", "Hkt", "HCT"], "preferred_unit": "%", "unit_aliases": ["L/L"], "conversions": [{ "from": "L/L", "to": "%", "factor": 100.0 }] },
+    { "id": "mcv", "display_name": "MCV", "category": "cbc", "synonyms": ["MCV"], "preferred_unit": "fL", "unit_aliases": [], "conversions": [] },
+    { "id": "mch", "display_name": "MCH", "category": "cbc", "synonyms": ["MCH"], "preferred_unit": "pg", "unit_aliases": [], "conversions": [] },
+    { "id": "mchc", "display_name": "MCHC", "category": "cbc", "synonyms": ["MCHC"], "preferred_unit": "g/dL", "unit_aliases": ["g/L"], "conversions": [{ "from": "g/L", "to": "g/dL", "factor": 0.1 }] },
+    { "id": "rdw", "display_name": "RDW", "category": "cbc", "synonyms": ["RDW", "Erythrozytenverteilungsbreite"], "preferred_unit": "%", "unit_aliases": [], "conversions": [] },
+    { "id": "plt", "display_name": "Thrombozyten", "category": "cbc", "synonyms": ["Thrombozyten", "PLT", "Platelets"], "preferred_unit": "G/L", "unit_aliases": ["10^9/L", "x10^9/L"], "conversions": [{ "from": "10^9/L", "to": "G/L", "factor": 1.0 }, { "from": "x10^9/L", "to": "G/L", "factor": 1.0 }] },
+
+    { "id": "neutrophils_abs", "display_name": "Neutrophile (absolut)", "category": "cbc_diff_abs", "synonyms": ["Neutrophile absolut", "Neutrophile abs", "Neutrophils abs", "NEUT#", "Granulozyten neutrophil abs"], "preferred_unit": "G/L", "unit_aliases": ["10^9/L"], "conversions": [{ "from": "10^9/L", "to": "G/L", "factor": 1.0 }] },
+    { "id": "lymphocytes_abs", "display_name": "Lymphozyten (absolut)", "category": "cbc_diff_abs", "synonyms": ["Lymphozyten absolut", "Lymphozyten abs", "Lymphocytes abs", "LYMPH#"], "preferred_unit": "G/L", "unit_aliases": ["10^9/L"], "conversions": [{ "from": "10^9/L", "to": "G/L", "factor": 1.0 }] },
+    { "id": "monocytes_abs", "display_name": "Monozyten (absolut)", "category": "cbc_diff_abs", "synonyms": ["Monozyten absolut", "Monozyten abs", "Monocytes abs", "MONO#"], "preferred_unit": "G/L", "unit_aliases": ["10^9/L"], "conversions": [{ "from": "10^9/L", "to": "G/L", "factor": 1.0 }] },
+    { "id": "eosinophils_abs", "display_name": "Eosinophile (absolut)", "category": "cbc_diff_abs", "synonyms": ["Eosinophile absolut", "Eosinophile abs", "Eosinophils abs", "EOS#"], "preferred_unit": "G/L", "unit_aliases": ["10^9/L"], "conversions": [{ "from": "10^9/L", "to": "G/L", "factor": 1.0 }] },
+    { "id": "basophils_abs", "display_name": "Basophile (absolut)", "category": "cbc_diff_abs", "synonyms": ["Basophile absolut", "Basophile abs", "Basophils abs", "BASO#"], "preferred_unit": "G/L", "unit_aliases": ["10^9/L"], "conversions": [{ "from": "10^9/L", "to": "G/L", "factor": 1.0 }] },
+
+    { "id": "neutrophils_pct", "display_name": "Neutrophile (%)", "category": "cbc_diff_pct", "synonyms": ["Neutrophile %", "Neutrophils %", "NEUT%"], "preferred_unit": "%", "unit_aliases": [], "conversions": [] },
+    { "id": "lymphocytes_pct", "display_name": "Lymphozyten (%)", "category": "cbc_diff_pct", "synonyms": ["Lymphozyten %", "Lymphocytes %", "LYMPH%"], "preferred_unit": "%", "unit_aliases": [], "conversions": [] },
+    { "id": "monocytes_pct", "display_name": "Monozyten (%)", "category": "cbc_diff_pct", "synonyms": ["Monozyten %", "Monocytes %", "MONO%"], "preferred_unit": "%", "unit_aliases": [], "conversions": [] },
+    { "id": "eosinophils_pct", "display_name": "Eosinophile (%)", "category": "cbc_diff_pct", "synonyms": ["Eosinophile %", "Eosinophils %", "EOS%"], "preferred_unit": "%", "unit_aliases": [], "conversions": [] },
+    { "id": "basophils_pct", "display_name": "Basophile (%)", "category": "cbc_diff_pct", "synonyms": ["Basophile %", "Basophils %", "BASO%"], "preferred_unit": "%", "unit_aliases": [], "conversions": [] },
+
+    { "id": "hscrp", "display_name": "hs-CRP", "category": "inflammation", "synonyms": ["hs-CRP", "CRP", "C-reaktives Protein", "C reaktives Protein"], "preferred_unit": "mg/L", "unit_aliases": ["mg/l"], "conversions": [] },
+    { "id": "esr", "display_name": "BSG", "category": "inflammation", "synonyms": ["BSG", "Blutsenkung", "ESR"], "preferred_unit": "mm/h", "unit_aliases": [], "conversions": [] },
+    { "id": "fibrinogen", "display_name": "Fibrinogen", "category": "inflammation", "synonyms": ["Fibrinogen", "Fibrinogen (Clauss)"], "preferred_unit": "g/L", "unit_aliases": ["mg/dL"], "conversions": [{ "from": "mg/dL", "to": "g/L", "factor": 0.01 }] },
+
+    { "id": "iron", "display_name": "Eisen", "category": "iron", "synonyms": ["Eisen", "Fe", "Iron", "Serum-Eisen"], "preferred_unit": "µg/dL", "unit_aliases": ["µmol/L"], "conversions": [{ "from": "µmol/L", "to": "µg/dL", "factor": 55.845 }] },
+    { "id": "ferritin", "display_name": "Ferritin", "category": "iron", "synonyms": ["Ferritin", "FERR"], "preferred_unit": "ng/mL", "unit_aliases": ["µg/L"], "conversions": [{ "from": "µg/L", "to": "ng/mL", "factor": 1.0 }], "red_flags": [{ "type": "very_high", "message": "Sehr hohes Ferritin: ärztliche Abklärung empfohlen." }] },
+    { "id": "transferrin", "display_name": "Transferrin", "category": "iron", "synonyms": ["Transferrin", "Transferrine"], "preferred_unit": "g/L", "unit_aliases": ["mg/dL"], "conversions": [{ "from": "mg/dL", "to": "g/L", "factor": 0.01 }] },
+    { "id": "tibc", "display_name": "TIBC", "category": "iron", "synonyms": ["TIBC", "Totale Eisenbindungskapazität", "Gesamt-Eisenbindungskapazität"], "preferred_unit": "µg/dL", "unit_aliases": ["µmol/L"], "conversions": [{ "from": "µmol/L", "to": "µg/dL", "factor": 55.845 }] },
+    { "id": "tsat", "display_name": "Transferrinsättigung (TSAT)", "category": "iron", "synonyms": ["TSAT", "Transferrinsättigung", "Transferrin-Sättigung"], "preferred_unit": "%", "unit_aliases": [], "conversions": [] },
+    { "id": "stfr", "display_name": "sTfR", "category": "iron", "synonyms": ["sTfR", "soluble transferrin receptor", "Transferrinrezeptor löslich"], "preferred_unit": "mg/L", "unit_aliases": [], "conversions": [] },
+
+    { "id": "glucose", "display_name": "Glukose", "category": "metabolic", "synonyms": ["Glukose", "Glucose", "Blutzucker"], "preferred_unit": "mg/dL", "unit_aliases": ["mmol/L"], "conversions": [{ "from": "mmol/L", "to": "mg/dL", "factor": 18.0182 }] },
+    { "id": "insulin_fasting", "display_name": "Insulin", "category": "metabolic", "synonyms": ["Insulin", "Insulin nüchtern", "Fasting insulin"], "preferred_unit": "µIU/mL", "unit_aliases": ["mIU/L"], "conversions": [{ "from": "mIU/L", "to": "µIU/mL", "factor": 1.0 }] },
+    { "id": "hba1c", "display_name": "HbA1c", "category": "metabolic", "synonyms": ["HbA1c", "HBA1c", "Glykohämoglobin"], "preferred_unit": "%", "unit_aliases": ["mmol/mol"], "conversions": [] },
+
+    { "id": "chol_total", "display_name": "Cholesterin gesamt", "category": "lipids", "synonyms": ["Cholesterin", "Gesamtcholesterin", "Total Cholesterol"], "preferred_unit": "mg/dL", "unit_aliases": ["mmol/L"], "conversions": [{ "from": "mmol/L", "to": "mg/dL", "factor": 38.67 }] },
+    { "id": "ldl_c", "display_name": "LDL-C", "category": "lipids", "synonyms": ["LDL", "LDL-C", "LDL Cholesterin"], "preferred_unit": "mg/dL", "unit_aliases": ["mmol/L"], "conversions": [{ "from": "mmol/L", "to": "mg/dL", "factor": 38.67 }] },
+    { "id": "hdl_c", "display_name": "HDL-C", "category": "lipids", "synonyms": ["HDL", "HDL-C", "HDL Cholesterin"], "preferred_unit": "mg/dL", "unit_aliases": ["mmol/L"], "conversions": [{ "from": "mmol/L", "to": "mg/dL", "factor": 38.67 }] },
+    { "id": "triglycerides", "display_name": "Triglyceride", "category": "lipids", "synonyms": ["Triglyceride", "Triglyzeride", "TG"], "preferred_unit": "mg/dL", "unit_aliases": ["mmol/L"], "conversions": [{ "from": "mmol/L", "to": "mg/dL", "factor": 88.57 }] },
+    { "id": "apob", "display_name": "ApoB", "category": "lipids", "synonyms": ["ApoB", "Apolipoprotein B"], "preferred_unit": "mg/dL", "unit_aliases": ["g/L"], "conversions": [{ "from": "g/L", "to": "mg/dL", "factor": 100.0 }] },
+    { "id": "apoa1", "display_name": "ApoA1", "category": "lipids", "synonyms": ["ApoA1", "Apolipoprotein A1"], "preferred_unit": "mg/dL", "unit_aliases": ["g/L"], "conversions": [{ "from": "g/L", "to": "mg/dL", "factor": 100.0 }] },
+    { "id": "lp_a", "display_name": "Lipoprotein(a)", "category": "lipids", "synonyms": ["Lp(a)", "Lipoprotein(a)", "Lipoprotein a"], "preferred_unit": "mg/dL", "unit_aliases": ["nmol/L"], "conversions": [] },
+
+    { "id": "ast", "display_name": "AST (GOT)", "category": "liver_muscle", "synonyms": ["AST", "GOT", "ASAT"], "preferred_unit": "U/L", "unit_aliases": ["IU/L"], "conversions": [{ "from": "IU/L", "to": "U/L", "factor": 1.0 }] },
+    { "id": "alt", "display_name": "ALT (GPT)", "category": "liver_muscle", "synonyms": ["ALT", "GPT", "ALAT"], "preferred_unit": "U/L", "unit_aliases": ["IU/L"], "conversions": [{ "from": "IU/L", "to": "U/L", "factor": 1.0 }] },
+    { "id": "ggt", "display_name": "GGT", "category": "liver_muscle", "synonyms": ["GGT", "Gamma-GT", "Gamma Glutamyltransferase"], "preferred_unit": "U/L", "unit_aliases": ["IU/L"], "conversions": [{ "from": "IU/L", "to": "U/L", "factor": 1.0 }] },
+    { "id": "alp", "display_name": "AP", "category": "liver_muscle", "synonyms": ["AP", "ALP", "Alkalische Phosphatase"], "preferred_unit": "U/L", "unit_aliases": ["IU/L"], "conversions": [{ "from": "IU/L", "to": "U/L", "factor": 1.0 }] },
+    { "id": "bilirubin_total", "display_name": "Bilirubin gesamt", "category": "liver_muscle", "synonyms": ["Bilirubin", "Bilirubin gesamt", "Total Bilirubin"], "preferred_unit": "mg/dL", "unit_aliases": ["µmol/L"], "conversions": [{ "from": "µmol/L", "to": "mg/dL", "factor": 0.05848 }] },
+    { "id": "bilirubin_direct", "display_name": "Bilirubin direkt", "category": "liver_muscle", "synonyms": ["Bilirubin direkt", "Direktbilirubin", "Direct Bilirubin"], "preferred_unit": "mg/dL", "unit_aliases": ["µmol/L"], "conversions": [{ "from": "µmol/L", "to": "mg/dL", "factor": 0.05848 }] },
+    { "id": "ck", "display_name": "CK", "category": "liver_muscle", "synonyms": ["CK", "Creatinkinase", "Kreatinkinase"], "preferred_unit": "U/L", "unit_aliases": ["IU/L"], "conversions": [{ "from": "IU/L", "to": "U/L", "factor": 1.0 }] },
+    { "id": "ldh", "display_name": "LDH", "category": "liver_muscle", "synonyms": ["LDH", "Laktatdehydrogenase"], "preferred_unit": "U/L", "unit_aliases": ["IU/L"], "conversions": [{ "from": "IU/L", "to": "U/L", "factor": 1.0 }] },
+
+    { "id": "creatinine", "display_name": "Kreatinin", "category": "kidney", "synonyms": ["Kreatinin", "Creatinine"], "preferred_unit": "mg/dL", "unit_aliases": ["µmol/L"], "conversions": [{ "from": "µmol/L", "to": "mg/dL", "factor": 0.01131 }] },
+    { "id": "egfr", "display_name": "eGFR", "category": "kidney", "synonyms": ["eGFR", "GFR"], "preferred_unit": "mL/min/1.73m2", "unit_aliases": [], "conversions": [] },
+    { "id": "urea", "display_name": "Harnstoff", "category": "kidney", "synonyms": ["Harnstoff", "Urea"], "preferred_unit": "mg/dL", "unit_aliases": ["mmol/L"], "conversions": [{ "from": "mmol/L", "to": "mg/dL", "factor": 6.006 }] },
+    { "id": "uric_acid", "display_name": "Harnsäure", "category": "kidney", "synonyms": ["Harnsäure", "Uric acid"], "preferred_unit": "mg/dL", "unit_aliases": ["µmol/L"], "conversions": [{ "from": "µmol/L", "to": "mg/dL", "factor": 0.01681 }] },
+    { "id": "cystatin_c", "display_name": "Cystatin C", "category": "kidney", "synonyms": ["Cystatin C", "Cystatin-C"], "preferred_unit": "mg/L", "unit_aliases": [], "conversions": [] },
+
+    { "id": "sodium", "display_name": "Natrium", "category": "electrolytes", "synonyms": ["Natrium", "Na", "Sodium"], "preferred_unit": "mmol/L", "unit_aliases": ["mEq/L"], "conversions": [{ "from": "mEq/L", "to": "mmol/L", "factor": 1.0 }] },
+    { "id": "potassium", "display_name": "Kalium", "category": "electrolytes", "synonyms": ["Kalium", "K", "Potassium"], "preferred_unit": "mmol/L", "unit_aliases": ["mEq/L"], "conversions": [{ "from": "mEq/L", "to": "mmol/L", "factor": 1.0 }] },
+    { "id": "chloride", "display_name": "Chlorid", "category": "electrolytes", "synonyms": ["Chlorid", "Cl", "Chloride"], "preferred_unit": "mmol/L", "unit_aliases": ["mEq/L"], "conversions": [{ "from": "mEq/L", "to": "mmol/L", "factor": 1.0 }] },
+    { "id": "bicarbonate", "display_name": "Bicarbonat", "category": "electrolytes", "synonyms": ["Bicarbonat", "Bikarbonat", "HCO3", "HCO3-"], "preferred_unit": "mmol/L", "unit_aliases": ["mEq/L"], "conversions": [{ "from": "mEq/L", "to": "mmol/L", "factor": 1.0 }] },
+    { "id": "anion_gap", "display_name": "Anion Gap", "category": "electrolytes", "synonyms": ["Anion Gap", "Anionenlücke"], "preferred_unit": "mmol/L", "unit_aliases": ["mEq/L"], "conversions": [{ "from": "mEq/L", "to": "mmol/L", "factor": 1.0 }] },
+    { "id": "calcium", "display_name": "Calcium", "category": "electrolytes", "synonyms": ["Calcium", "Ca"], "preferred_unit": "mg/dL", "unit_aliases": ["mmol/L"], "conversions": [{ "from": "mmol/L", "to": "mg/dL", "factor": 4.008 }] },
+    { "id": "magnesium", "display_name": "Magnesium", "category": "electrolytes", "synonyms": ["Magnesium", "Mg"], "preferred_unit": "mg/dL", "unit_aliases": ["mmol/L"], "conversions": [{ "from": "mmol/L", "to": "mg/dL", "factor": 2.43 }] },
+    { "id": "phosphate", "display_name": "Phosphat", "category": "electrolytes", "synonyms": ["Phosphat", "Phosphate", "PO4"], "preferred_unit": "mg/dL", "unit_aliases": ["mmol/L"], "conversions": [{ "from": "mmol/L", "to": "mg/dL", "factor": 3.097 }] },
+
+    { "id": "total_protein", "display_name": "Gesamteiweiß", "category": "proteins", "synonyms": ["Gesamteiweiß", "Total protein", "Protein gesamt"], "preferred_unit": "g/dL", "unit_aliases": ["g/L"], "conversions": [{ "from": "g/L", "to": "g/dL", "factor": 0.1 }] },
+    { "id": "albumin", "display_name": "Albumin", "category": "proteins", "synonyms": ["Albumin"], "preferred_unit": "g/dL", "unit_aliases": ["g/L"], "conversions": [{ "from": "g/L", "to": "g/dL", "factor": 0.1 }] },
+
+    { "id": "tsh", "display_name": "TSH", "category": "thyroid", "synonyms": ["TSH", "Thyreotropin"], "preferred_unit": "mIU/L", "unit_aliases": ["µIU/mL"], "conversions": [{ "from": "µIU/mL", "to": "mIU/L", "factor": 1.0 }] },
+    { "id": "ft3", "display_name": "fT3", "category": "thyroid", "synonyms": ["fT3", "FT3", "freies T3"], "preferred_unit": "pg/mL", "unit_aliases": ["pmol/L"], "conversions": [] },
+    { "id": "ft4", "display_name": "fT4", "category": "thyroid", "synonyms": ["fT4", "FT4", "freies T4"], "preferred_unit": "ng/dL", "unit_aliases": ["pmol/L"], "conversions": [] },
+    { "id": "tpo_ab", "display_name": "TPO-AK", "category": "thyroid", "synonyms": ["TPO-AK", "Anti-TPO", "TPO Antikörper"], "preferred_unit": "IU/mL", "unit_aliases": ["kIU/L"], "conversions": [] },
+    { "id": "tg_ab", "display_name": "Tg-AK", "category": "thyroid", "synonyms": ["Tg-AK", "Anti-Tg", "Thyreoglobulin-AK"], "preferred_unit": "IU/mL", "unit_aliases": [], "conversions": [] },
+
+    { "id": "testosterone_total", "display_name": "Testosteron gesamt", "category": "hormones", "synonyms": ["Testosteron", "Gesamt-Testosteron", "Total Testosterone"], "preferred_unit": "ng/dL", "unit_aliases": ["nmol/L"], "conversions": [{ "from": "nmol/L", "to": "ng/dL", "factor": 28.84 }] },
+    { "id": "shbg", "display_name": "SHBG", "category": "hormones", "synonyms": ["SHBG", "Sexualhormon-bindendes Globulin"], "preferred_unit": "nmol/L", "unit_aliases": [], "conversions": [] },
+    { "id": "free_testosterone", "display_name": "Testosteron frei", "category": "hormones", "synonyms": ["freies Testosteron", "Testosteron frei", "Free testosterone"], "preferred_unit": "pg/mL", "unit_aliases": ["pmol/L"], "conversions": [] },
+    { "id": "lh", "display_name": "LH", "category": "hormones", "synonyms": ["LH", "Luteinisierendes Hormon"], "preferred_unit": "IU/L", "unit_aliases": ["mIU/mL"], "conversions": [{ "from": "mIU/mL", "to": "IU/L", "factor": 1.0 }] },
+    { "id": "fsh", "display_name": "FSH", "category": "hormones", "synonyms": ["FSH", "Follikelstimulierendes Hormon"], "preferred_unit": "IU/L", "unit_aliases": ["mIU/mL"], "conversions": [{ "from": "mIU/mL", "to": "IU/L", "factor": 1.0 }] },
+    { "id": "estradiol", "display_name": "Östradiol (E2)", "category": "hormones", "synonyms": ["Östradiol", "Estradiol", "E2"], "preferred_unit": "pg/mL", "unit_aliases": ["pmol/L"], "conversions": [] },
+    { "id": "prolactin", "display_name": "Prolaktin", "category": "hormones", "synonyms": ["Prolaktin", "Prolactin"], "preferred_unit": "ng/mL", "unit_aliases": ["mIU/L"], "conversions": [] },
+    { "id": "dhea_s", "display_name": "DHEA-S", "category": "hormones", "synonyms": ["DHEA-S", "DHEAS"], "preferred_unit": "µg/dL", "unit_aliases": ["µmol/L"], "conversions": [] },
+    { "id": "cortisol", "display_name": "Cortisol", "category": "hormones", "synonyms": ["Cortisol", "Kortisol"], "preferred_unit": "µg/dL", "unit_aliases": ["nmol/L"], "conversions": [] },
+    { "id": "igf1", "display_name": "IGF-1", "category": "hormones", "synonyms": ["IGF-1", "Insulin-like Growth Factor 1"], "preferred_unit": "ng/mL", "unit_aliases": ["nmol/L"], "conversions": [] },
+
+    { "id": "vitd_25oh", "display_name": "25-OH Vitamin D", "category": "micronutrients", "synonyms": ["25(OH)D", "25-OH Vitamin D", "Vitamin D", "Calcidiol"], "preferred_unit": "ng/mL", "unit_aliases": ["nmol/L"], "conversions": [{ "from": "nmol/L", "to": "ng/mL", "factor": 0.4 }] },
+    { "id": "b12", "display_name": "Vitamin B12", "category": "micronutrients", "synonyms": ["Vitamin B12", "B12", "Cobalamin"], "preferred_unit": "pg/mL", "unit_aliases": ["pmol/L"], "conversions": [{ "from": "pmol/L", "to": "pg/mL", "factor": 1.355 }] },
+    { "id": "folate", "display_name": "Folat", "category": "micronutrients", "synonyms": ["Folat", "Folsäure", "Folate"], "preferred_unit": "ng/mL", "unit_aliases": ["nmol/L"], "conversions": [{ "from": "nmol/L", "to": "ng/mL", "factor": 0.441 }] },
+    { "id": "zinc", "display_name": "Zink", "category": "micronutrients", "synonyms": ["Zink", "Zinc"], "preferred_unit": "µg/dL", "unit_aliases": ["µmol/L"], "conversions": [] },
+    { "id": "copper", "display_name": "Kupfer", "category": "micronutrients", "synonyms": ["Kupfer", "Copper"], "preferred_unit": "µg/dL", "unit_aliases": ["µmol/L"], "conversions": [] },
+    { "id": "selenium", "display_name": "Selen", "category": "micronutrients", "synonyms": ["Selen", "Selenium"], "preferred_unit": "µg/L", "unit_aliases": [], "conversions": [] },
+
+    { "id": "homocysteine", "display_name": "Homocystein", "category": "metabolic", "synonyms": ["Homocystein", "Homocysteine"], "preferred_unit": "µmol/L", "unit_aliases": [], "conversions": [] },
+
+    { "id": "amylase", "display_name": "Amylase", "category": "other", "synonyms": ["Amylase"], "preferred_unit": "U/L", "unit_aliases": ["IU/L"], "conversions": [{ "from": "IU/L", "to": "U/L", "factor": 1.0 }] },
+    { "id": "lipase", "display_name": "Lipase", "category": "other", "synonyms": ["Lipase"], "preferred_unit": "U/L", "unit_aliases": ["IU/L"], "conversions": [{ "from": "IU/L", "to": "U/L", "factor": 1.0 }] }
+  ]
+}
